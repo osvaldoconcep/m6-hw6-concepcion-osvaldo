@@ -22,7 +22,7 @@ body {
 .boxes-container {
     display: flex;
     justify-content: space-around;
-    height: 400px;
+    padding-bottom: 40px;
 }
 
 .box {
@@ -48,4 +48,10 @@ body {
 
 #boxThree {
     background-color: greenyellow;
+}
+
+#resultBox {
+    color: rebeccapurple;
+    font-size: 20px;
+    padding: 40px;
 }
