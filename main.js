@@ -19,5 +19,12 @@ function appendMessage(message) {
         p.appendChild(node);
         const element = document.getElementById("resultBox");
         element.appendChild(p);
+        // show the reset button
+        showResetButton();
     }
+}
+
+function showResetButton() {
+    const element = document.getElementById("resetButton");
+    element.classList.remove("hidden");
 }
